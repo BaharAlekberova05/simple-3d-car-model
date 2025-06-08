@@ -1,12 +1,50 @@
-# React + Vite
+# 🚗 Simple 3D Car Model
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple interactive 3D car model displayed on a web page using [Three.js](https://threejs.org/). The project demonstrates how to load and render a GLB/GLTF car model with lighting and camera controls.
 
-Currently, two official plugins are available:
+## 🧰 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Three.js** – for rendering 3D graphics
+- **HTML5** – for structuring the webpage
+- **CSS3** – for styling
+- **React** – for logic and interactivity
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/BaharAlekberova05/simple-3d-car-model.git
+```
+
+2. **Navigate to the project folder:**
+
+```bash
+cd 3d-car-model
+```
+
+3. **Open the project in your browser:**
+
+```bash
+npm install
+npm run dev
+```
+
+## ✨ Features
+
+- Simple and efficient 3D car model rendering
+- Real-time camera controls
+- Ambient and directional lighting setup
+- GLB/GLTF model loading with `GLTFLoader`
+
+## 🙋‍♀️ Author
+
+Created by **Bahar Alekberova**  
+📬 Contact: [baharalekberova05@gmail.com]  
+🌐 GitHub: [github.com/BaharAlekberova05](https://github.com/BaharAlekberova05)
+
+---
+
+> _Thank you for checking out my project! If you like it, feel free to ⭐ star the repo or suggest improvements!_
